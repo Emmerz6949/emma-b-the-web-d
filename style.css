@@ -1,7 +1,18 @@
+@media screen and (max-width: 300px) {
+    body {
+        width: 80%;
+        font-size: 15px;
+    }
+}
+
 body {
     background-color: #720A94;
 }
 
 head, nav {
     background-color: #1DACD6;
+}
+
+.card {
+    margin-top: 10vw;
 }
