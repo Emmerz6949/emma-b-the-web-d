@@ -2,10 +2,34 @@ body {
     background-color: #720A94;
 }
 
-head, nav {
+.cerulean {
     background-color: #1DACD6;
+}
+
+.ceruleanText {
+    color: #1DACD6;
+}
+
+button:hover, li:hover {
+    background-color: #168fb4;
 }
 
 .card {
     margin-top: 10vw;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 75% !important;
+    }
+}
+
+.container {
+    margin-top: 4vw;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 10vw;
+    }
 }
