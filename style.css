@@ -10,26 +10,46 @@ body {
     color: #1DACD6;
 }
 
-button:hover, li:hover {
-    background-color: #168fb4;
+.btn:hover, li:hover {
+    background-color: #168fb4 !important;
 }
 
-.card {
+#homeCard {
     margin-top: 10vw;
-}
-
-@media screen and (max-width: 800px) {
-    .card {
-        width: 75% !important;
-    }
 }
 
 .container {
     margin-top: 4vw;
 }
 
+.border-success {
+    border: #168fb4 0.5px solid !important;
+}
+
+.lastRow {
+    width: 48%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media screen and (max-width: 800px) {
+    #homeCard {
+        width: 75% !important;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .container {
         margin-top: 10vw;
+    }
+
+    .additionalRow {
+        margin-top: 0 !important;
+    }
+
+    .lastRow {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 }
