@@ -2,7 +2,7 @@
 
 ## Description
 
-This repostory was created so I could create my portfolio website. It features a home, about me, my portfolio, and contact me page.
+This repository was created so I could create my portfolio website. It features a home, about me, my portfolio, and contact me page.
 
 ![image](https://i.ibb.co/qr40p2r/My-Portfolio.png)
 
